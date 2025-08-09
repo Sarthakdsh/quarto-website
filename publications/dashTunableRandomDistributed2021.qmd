@@ -1,0 +1,27 @@
+---
+title: >-
+  Tunable random distributed feedback raman fiber laser with fourier spectral shaper for feedback control
+author:
+  - "**Sarthak Dash**"
+  - Rashmita Deheri
+  - Vishal Choudhury
+  - VR Supradeepa
+issued: 2021
+doi: https://doi.org/10.1117/12.2583214
+type: proceedings-article
+journal-title: "Fiber Lasers XVIII: Technology and Systems"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashTunableRandomDistributed2021
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Cascaded Raman Fiber Lasers (CRFL) bridges the gap between conventional fiber lasers emission bands by providing output in the intermediate wavelengths by cascaded Raman stokes conversion. Recently, random distributed feedback (RDFB), which provides broadband feedback, has shown to provide a great amount of wavelength tunability. Currently, coarse tuning in these lasers is achieved by controlling the Raman Stokes order through the power and feedback tuning, while fine-tuning within a Stokes order is achieved using a wavelength-tunable pump laser. Feedback tuning is achieved through simple filters such as short-pass filters to terminate the Raman cascade or a cascade of filters to enhance filtering complexity. In either approach, to achieve wavelength fine-tuning over several Raman Stokes orders, the system complexity is substantially enhanced. Here, we overcome this limitation by using a Fourier spectral shaper, a technique for achieving arbitrary spectral control to modify the feedback. A photolithographically fabricated 2-D mask in the shaper whose spatial co-ordinates can be altered together with the presence of multiple patterns on the mask enables a wide variety of filtering functions with high spectral resolution. In this work, we demonstrate a proof of concept cascaded Raman laser system pumped with a fixed wavelength laser at 1064nm, which can achieve tunable laser output around the first, second and third Stokes components of the 1064 nm pump at 1117 nm, 1175 nm, and 1240 nm. Multiwatt class output powers are demonstrated with a high degree of wavelength conversion of < 95 % in all cases.
+:::

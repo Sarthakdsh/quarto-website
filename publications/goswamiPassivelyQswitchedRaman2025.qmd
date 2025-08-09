@@ -1,0 +1,28 @@
+---
+title: >-
+  Passively q-switched raman fiber laser source widely tunable in near infrared and visible window
+author:
+  - Abhigyan Goswami
+  - "**Sarthak Dash**"
+  - VR Supradeepa
+  - Swathi Padmanabhan
+  - Jaya Prakash
+issued: 2025
+doi: https://doi.org/10.1117/12.3043020
+type: proceedings-article
+journal-title: "Nonlinear Frequency Generation and Conversion: Materials and Devices XXIV"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @goswamiPassivelyQswitchedRaman2025
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+In the current study, we demonstrate a pulsed cascaded Raman fiber laser (CRFL) widely tunable in both the second near infrared (NIR-II) (1060-1600nm) and visible window (530-600nm, limited currently only by crystal availability in house). We achieved wide wavelength tunability of the CRFL by using an in-house built passively Q-switched tunable Yb-doped fiber laser as pump. The Yb-pump is followed by a large-mode area fiber amplifier for pulse-energy scaling and a Raman module for efficient Raman conversion. Subsequently, the NIR CRFL is used as a pump for generating visible light in a second-harmonic generation module, implementing a type-I cut LBO crystal. The CRFL operates at tunable high repetition rate variable from 20kHz to 80kHz. Pulse-duration can also be changed in the range from 40ns to 200ns, by minor modifications. Source is packaged for implementation in a wide range of biomedical imaging applications.
+:::

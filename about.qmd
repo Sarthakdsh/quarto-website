@@ -1,0 +1,108 @@
+---
+title: "About"
+description: "Researcher in Fiber laser"
+image: eddited.png
+format:
+  html:
+      toc: false
+about:
+  template: trestles
+  links:
+    - text: "{{< iconify mdi:gmail >}}Mail"
+      href: mailto:sarthakdsh@gmail.com 
+
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sarthak-dsh
+
+    - text: "{{< iconify fa6-brands:google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=U-FlM8sAAAAJ&hl=en
+
+    - text: "{{< iconify simple-icons:orcid >}} ORCiD"
+      href: https://orcid.org/0009-0005-6248-7779
+
+    - text: "{{< iconify academicons:researchgate-square >}} ResearchGate"
+      href: https://www.researchgate.net/profile/Sarthak-Dash?ev=hdr_xprf
+
+    - icon: github
+      text: Github
+      href: https://github.com/Sarthakdsh
+---
+
+## {{< iconify material-symbols:work >}} Experience
+
+::::: columns
+::: {.column width="30%"}
+**Sr. Research Fellow**
+:::
+
+::: column
+CeNSE, Indian Institute of Science, Bangalore <br> 03/2025 - present
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+**Proj. Associate II**
+:::
+
+::: column
+CeNSE, Indian Institute of Science, Bangalore <br> 08/2024 – 03/2025
+:::
+:::::
+
+## {{< iconify tdesign:education-filled >}} Education
+
+::::: columns
+::: {.column width="30%"}
+**PhD**
+:::
+
+::: column
+Indian Institute of Science, Bangalore <br> 2018 – 2024
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+**MSc**
+:::
+
+::: column
+National Institute of Technology, Rourkela <br> 2015 – 2017
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+**BSc**
+:::
+
+::: column
+B.J.B (Autonomous) College, Bhubaneswar <br> 2012 – 2015
+:::
+:::::
+
+## {{< iconify game-icons:skills>}} Technical Skills
+
+-   [**Fiber laser**]{.underline}: Design and fabrication of fiber lasers (CW and pulsed), Raman fiber lasers, and amplifiers
+
+-   [**Fiber processing**]{.underline}: stripping, cleaving, splicing, recoating of normal and specialty fibers
+
+-   [**Nonlinear conversion**]{.underline}: Freq. doubling using nonlinear crystals - BBO, LBO, PPLN
+
+-   [**Free-space setups**]{.underline}: pulse shapers, grating filters, beam combiners, collimators, and coupling systems
+
+-   [**Simulations**]{.underline}: fiber lasers, Raman lasers, nonlinear pulse propagation, harmonic generation and free-space optics
+
+-   [**Softwares**]{.underline}: Python, Julia, Mathematica, COMSOL, Zemax
+
+## {{< iconify healthicons:award-trophy >}} Awards & Achievements
+
+-   **SPIE Photonics West “Fiber lasers” Travel Grant** (2024 & 2025)
+
+-   **SERB International Travel Support (ITS)** (2024)
+
+-   **Best Oral Presentation Award**, $11^{th}$ CeNSE Student Research Symposium (2024)
+
+-   **National-Level Examinations**: GATE (AIR 126, 2018), NET (2017), IIT-JAM (AIR 501, 2015)

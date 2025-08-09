@@ -1,0 +1,28 @@
+---
+title: >-
+  Widely tunable raman fiber laser for hyperspectral photoacoustic imaging
+author:
+  - Abhigyan Goswami
+  - "**Sarthak Dash**"
+  - VR Supradeepa
+  - Swathi Padmanabhan
+  - Jaya Prakash
+issued: 2025
+doi: https://doi.org/10.1117/12.3043033
+type: proceedings-article
+journal-title: "Photons Plus Ultrasound: Imaging and Sensing 2025"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @goswamiWidelyTunableRaman2025
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+We demonstrate a widely tunable pulsed cascaded Raman fiber laser (CRFL) continuously tunable in the second near infrared (NIR-II) window (1060-1600 nm) and through harmonic conversion in the visible window (530-600 nm, limited currently only by crystal availability in house) and effectively implemented it in a hyperspectral photoacoustic imaging (PAI) setup. We utilized it for PA spectroscopy of lipids in the second resonance of C-H bond in 1145-1257 nm. The CRFL operates at a tunable high repetition-rate variable from 20 kHz to 80 kHz. Pulse-duration can be changed from 40 ns to 200 ns by minor modification. The pulse energy is ⁓ 10 μJ in NIR-II window and ⁓ 0.1 μJ in the visible window. The CRFL module can provide an alternative to OPOs and supercontinuum for hyperspectral PAI applications.
+:::

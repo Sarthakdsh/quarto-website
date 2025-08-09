@@ -1,0 +1,27 @@
+---
+title: >-
+  Contactless temperature measurement of an in-process silicon wafer using a spectrally shaped supercontinuum source
+author:
+  - Abhigyan Goswami
+  - "**Sarthak Dash**"
+  - Sushobhan Avasthi
+  - VR Supradeepa
+issued: 2025
+doi: https://doi.org/10.1364/oe.549560
+type: journal-article
+journal-title: Optics Express
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @goswamiContactlessTemperatureMeasurement2025
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Non-contact temperature measurements, with high accuracy and fast acquisition speed, are necessary for advanced silicon microfabrication. Utilizing the temperature dependence of silicon’s absorption in the near-infrared (NIR) region, wafer temperature can be obtained from the measured transmitted power. Accurate temperature measurements over a wide range require multiple laser sources with different wavelengths, increasing the system’s complexity and reducing acquisition speed, due to the requirement of switching between multiple lasers. The system can be simplified by replacing multiple lasers with a single supercontinuum source. The measurement accuracy in the lower temperature range is poor, using a spectrally flat supercontinuum. We propose the use of a compact, cost-effective telecom fiber-based supercontinuum source whose spectrum can be tailored. We show that spectra having exponential roll-off towards longer wavelengths leads to improvement of the temperature measurement accuracy. We optimized the spectral shape to achieve enhanced measurement accuracy, with ∼1 °C accuracy from room temperature to 600 °C an improvement by a factor of > 6x compared to a flat supercontinuum source. Additionally, the elimination of the need for inline optical switches enhances acquisition speed, which is currently limited only by the detector response time of ∼ 66 ms. The proposed method can easily be scaled for simultaneous temperature measurements at multiple spatial locations, enabled by high power availability from the supercontinuum source.
+:::

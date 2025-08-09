@@ -1,0 +1,81 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Your first Raman fiber amplifier simulation in Julia: From theory to code\"\n",
+        "author: \"Sarthak Dash\"\n",
+        "date: \"2025-07-27\"\n",
+        "categories: [Raman, code]\n",
+        "image: \"image.jpg\"\n",
+        "bibliography: references.bib\n",
+        "---\n",
+        "\n",
+        "\n",
+        "::: callout-note\n",
+        "## Aim\n",
+        "\n",
+        "To simulate power evolution in Raman fiber laser using Julia programming language\n",
+        ":::\n",
+        "\n",
+        "## Basics of Raman amplification in fiber\n",
+        "\n",
+        "**Raman amplifier** works on the principle of **Raman scattering**, that can be described as the scattering of an input photon of frequency $\\omega_p$ by the phonon of the fiber medium of frequency $\\Omega$ into either a Stokes photon at frequency $\\omega_s = \\omega_p - \\Omega$ or an anti-Stokes photon at frequency $\\omega_{a} = \\omega_p + \\Omega$.\n",
+        "\n",
+        "In a simple approach valid under CW and quasi-CW conditions, the evolution of Stokes power and pump power in a fiber, due to Raman gain and fiber loss can be written as [@agrawal2013] $$\n",
+        "\\begin{align} \\nonumber\n",
+        "     \\frac{dP_s}{dz} &= \\left[ g_RP_p - \\alpha_s \\right] P_s  \\\\ \\nonumber\n",
+        "     \\frac{dP_p}{dz} &=  - \\left[\\frac{\\omega_p}{\\omega_s}g_RP_s   - \\alpha_p  \\right] P_p\n",
+        "\\end{align}\n",
+        "$$ {#1}where $P_p$ is power in the pump, $P_s$ is the Stokes power, $z$ is the distance of fiber, $A_{eff}$ is the effective mode field area, $g_R$ is the Raman-gain efficiency at the frequency downshift $\\Omega = \\omega_p - \\omega_s$ representing the frequency difference between the pump and the Stokes wave.\n",
+        "\n",
+        "The above equations are referred as power-balance equations for Raman fiber lasers. There are **ordinary differential equations (ODEs)**. Now, for amplifier case, we provide power values at the start of the fiber and solve the ODEs over the fiber length. Such type of problems are called **initial value problems (IVPs)**.\n",
+        "\n",
+        "## Why Julia?\n",
+        "\n",
+        "IVPs can be solved numerically in many languages like Matlab, Python, Julia etc.. The reason of choosing Julia is because in it writing and running a simulation is fast (except for first run).\n",
+        "\n",
+        "## Simulation\n",
+        "\n",
+        "Let us start with importing necessary packages.\n"
+      ],
+      "id": "ab796188"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "using DifferentialEquations\n",
+        "using LaTeXStrings\n",
+        "using Plots\n",
+        "using BenchmarkTools\n",
+        "using StaticArrays\n",
+        "using LoopVectorization\n",
+        "gr()"
+      ],
+      "id": "fc935fac",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Setting up the problem"
+      ],
+      "id": "6b72ff19"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "julia-0.6",
+      "language": "julia",
+      "display_name": "Julia 0.6.3",
+      "path": "C:\\ProgramData\\jupyter\\kernels\\julia-0.6"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

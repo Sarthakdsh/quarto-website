@@ -1,0 +1,28 @@
+---
+title: >-
+  Spectral beam combining of narrow-linewidth lasers from a phase modulated frequency comb-based seed source
+author:
+  - Shilpi Arora
+  - "**Sarthak Dash**"
+  - Soubhik Pal
+  - CG Lakshmi
+  - VR Supradeepa
+issued: 2024
+doi: https://doi.org/10.1007/978-981-97-6164-7_18
+type: proceedings-article
+journal-title: "PHOTONICS 2023. Lecture Notes in Electrical Engineering"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @aroraSpectralBeamCombining2024
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+We have demonstrated a spectral beam combining system based on a frequency comb-based seed source to get high output power from a single laser module. We have also shown that our system can achieve 58{\%} SBS threshold improvement via line shaping the spectrum.
+:::

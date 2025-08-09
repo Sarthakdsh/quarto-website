@@ -1,0 +1,25 @@
+---
+title: >-
+  High power, widely tunable, near-infrared and visible laser sources using raman fiber lasers
+author:
+  - "**Sarthak Dash**"
+  - Rashmita Deheri
+  - VR Supradeepa
+issued: 2024
+type: proceedings-article
+journal-title: 2024 Conference on Lasers and Electro-Optics Pacific Rim (CLEO-PR)
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashHighPowerWidely2024
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+We discuss our work in enhancing spectral purity of the output of Cascaded Raman lasers in NIR wavelengths. We also discuss methods to reduce output linewidth which enables conversion to visible wavelengths with higher efficiency
+:::

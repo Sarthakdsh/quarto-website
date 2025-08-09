@@ -1,0 +1,27 @@
+---
+title: >-
+  Fourier pulse shaper assisted feedback in cascaded raman lasers for reduced linewidth and wide wavelength tunability
+author:
+  - "**Sarthak Dash**"
+  - Rashmita Deheri
+  - Vishal Choudhury
+  - VR Supradeepa
+issued: 2022
+doi: https://doi.org/10.1117/12.2609623
+type: proceedings-article
+journal-title: Optical Components and Materials XIX
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashFourierPulseShaper2022
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Raman fiber lasers are an excellent source for achieving high powers in wavelengths conventionally inaccessible with rare-earth-doped fiber lasers. In recent years, wavelength-tunable cascaded Raman lasers have been achieved using a Random Distributed Feedback Raman Fiber laser pumped in the 1micron wavelength band. Here, wavelength tuning is achieved using a combination of output power tuning for selecting different Stokes orders and tuning the wavelength of the pump source for output wavelength tuning around a specific Stokes order. In this approach, the feedback in the laser is broadband, and thus, the spectral purity and spectral linewidth of the output is severely compromised. There have been approaches to control the feedback using different filter architectures such as WDMs, Fabry-Perot filters, filter-fibers. Still, each has limitations in either the operating wavelength window or the spectral resolution. Here, we demonstrate a cascaded Raman laser comprising a reflective Fourier pulse shaper that provides near arbitrary feedback control. Our approach can enable wavelength and linewidth tunable lasers with a fixed wavelength pump. The pulse shaper operates over a wavelength region from 1.1 – 1.3micron, achieves spectral features as small as 0.5nm. The output of the cascaded Raman laser is over 10W, and the center wavelength can be selected from discrete lines at 1117nm, 1175nm, 1240nm with over 15nm of fine-tuning around each. The spectral purity of the output is <95% in all cases. The linewidth of the output is reduced to sub-nm levels and can be continuously tuned from 1-4nm by pulse shaper settings.
+:::

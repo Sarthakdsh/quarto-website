@@ -1,0 +1,30 @@
+---
+title: >-
+    Frequency comb-based seed laser architecture with improved brillouin
+    performance for spectral beam combining of narrow-linewidth lasers
+author:
+    - Shilpi Arora
+    - Soubhik Pal
+    - CG Lakshmi
+    - "**Sarthak Dash**"
+    - VR Supradeepa
+issued: 2025
+doi: 10.1109/jphot.2025.3563430
+type: journal-article
+journal-title: "IEEE Photonics Journal"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+    @aroraFrequencyCombbasedSeed2025
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+This study presents a novel approach to spectral beam combining for achieving high output powers with a compact, single module seed laser source based on frequency combs. By utilizing an electro-optic comb generator that can adjust the repetition rate and central wavelength, this system generates numerous wavelengths from a single laser, serving as individual laser sources for spectral beam combining. Additionally, the system can incorporate a single line-broadener for all channels together for suppressing stimulated Brillouin scattering (SBS). A de-multiplexer is used to separate distinct wavelengths into individual fiber ports. By employing external phase modulation with white noise, the system can adjust the linewidth from a single frequency to 4 GHz. Furthermore, superior SBS control is achieved by tailoring the lineshape in the de-multiplexer, which reduces feedback-assisted SBS. With the customized lineshape, the SBS threshold of the system increases by >50%. By mitigating the complexities of conventional spectral beam combining, such as the use of multiple laser sources and the requirement for each laser to have a current and temperature controller, in addition to a line broadener, this innovative approach presents a cost-effective and less complex alternative for power scaling.
+:::
+

@@ -1,0 +1,92 @@
+{
+  "index.qmd": {
+    "index.html": "a87e3ae3"
+  },
+  "about.qmd": {
+    "about.html": "f11203fe"
+  },
+  "Blogs/index.qmd": {
+    "index.html": "65058538"
+  },
+  "Blogs/welcome/index.qmd": {
+    "index.html": "5e4ef2b2"
+  },
+  "Blogs/Demo/index.qmd": {
+    "index.html": "df24b365"
+  },
+  "publications.qmd": {
+    "publications.html": "61fa62c3"
+  },
+  "publications/shilipFreqComb2025.qmd": {
+    "shilipFreqComb2025.html": "8fe97c15"
+  },
+  "publications/dashLinewidthReducedCascaded2024a.qmd": {
+    "dashLinewidthReducedCascaded2024a.html": "b796b9a9"
+  },
+  "publications/dashContinuouslyTunableGreen2025a.qmd": {
+    "dashContinuouslyTunableGreen2025a.html": "ad7135f2"
+  },
+  "publications/aroraFrequencyCombbasedSeed2025.qmd": {
+    "aroraFrequencyCombbasedSeed2025.html": "92aa2878"
+  },
+  "publications/aroraSpectralBeamCombining2024.qmd": {
+    "aroraSpectralBeamCombining2024.html": "e1c550bf"
+  },
+  "publications/dashFourierPulseShaper2022.qmd": {
+    "dashFourierPulseShaper2022.html": "2573196d"
+  },
+  "publications/dashFourierSpectralShaper2024a.qmd": {
+    "dashFourierSpectralShaper2024a.html": "4ae8e44c"
+  },
+  "publications/dashHighPowerWidely2024.qmd": {
+    "dashHighPowerWidely2024.html": "164d2861"
+  },
+  "publications/dashLinewidthControlCascaded2024.qmd": {
+    "dashLinewidthControlCascaded2024.html": "233bbeec"
+  },
+  "publications/dashMultipointThermalMonitoring2024.qmd": {
+    "dashMultipointThermalMonitoring2024.html": "2bff26ba"
+  },
+  "publications/dashTunableRandomDistributed2021.qmd": {
+    "dashTunableRandomDistributed2021.html": "23607943"
+  },
+  "publications/deheriCascadedRamanFiber2022c.qmd": {
+    "deheriCascadedRamanFiber2022c.html": "5897f761"
+  },
+  "publications/deheriCascadedRamanFiber2022d.qmd": {
+    "deheriCascadedRamanFiber2022d.html": "868eed97"
+  },
+  "publications/deheriCascadedRamanFiber2022e.qmd": {
+    "deheriCascadedRamanFiber2022e.html": "8b2c9d84"
+  },
+  "publications/deheriExperimentalInvestigationLinewidth2024a.qmd": {
+    "deheriExperimentalInvestigationLinewidth2024a.html": "2258301d"
+  },
+  "publications/goswamiContactlessTemperatureMeasurement2025.qmd": {
+    "goswamiContactlessTemperatureMeasurement2025.html": "5e4ffad1"
+  },
+  "publications/goswamiPassivelyQswitchedRaman2025.qmd": {
+    "goswamiPassivelyQswitchedRaman2025.html": "3e6d0dbd"
+  },
+  "publications/goswamiPulsedCascadedRaman2022a.qmd": {
+    "goswamiPulsedCascadedRaman2022a.html": "f019b5af"
+  },
+  "publications/goswamiPulsedCascadedRaman2025.qmd": {
+    "goswamiPulsedCascadedRaman2025.html": "f202fea2"
+  },
+  "publications/goswamiWidelyTunableRaman2025.qmd": {
+    "goswamiWidelyTunableRaman2025.html": "3cd4a55d"
+  },
+  "publications/goswamiWidelyTunableVisible2024.qmd": {
+    "goswamiWidelyTunableVisible2024.html": "df72408b"
+  },
+  "publications/goswamiWidelyTunableVisible2024a.qmd": {
+    "goswamiWidelyTunableVisible2024a.html": "44323bff"
+  },
+  "publications/palBrillouinassistedGenerationDemultiplexing2025.qmd": {
+    "palBrillouinassistedGenerationDemultiplexing2025.html": "b752aa38"
+  },
+  "Blogs/Raman-Julia/index.qmd": {
+    "index.html": "4e155d86"
+  }
+}

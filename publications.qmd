@@ -1,0 +1,32 @@
+---
+title: "Publications"
+filters: []
+format: 
+  html: 
+    toc: false
+listing:
+  type: table
+  contents: publications\
+  fields:
+    - title
+    - author
+    - issued
+---
+
+# Publications
+
+Below you can find a sortable and filterable list of my publications. Use the filter options above the table to narrow down by year, publication type, or co-author.
+
+
+
+<!-- ---
+title: 'Publications'
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @*
+---
+
+:::{#refs}
+::: -->

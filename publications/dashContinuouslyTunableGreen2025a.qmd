@@ -1,0 +1,27 @@
+---
+title: >-
+    Continuously Tunable Green to Red Visible Laser Sources through Harmonic Conversion of Cascaded Raman Fiber Lasers
+author:
+    - "**Sarthak Dash**"
+    - Rashmita Deheri
+    - VR Supradeepa
+issued: 2025
+doi: https://doi.org/10.1117/12.3042736
+type: conference-proceedings
+journal-title: "Fiber Lasers XXII: Technology and Systems"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+    @dashContinuouslyTunableGreen2025a
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Cascaded Raman fiber lasers (CRFLs) are versatile sources in the near-infrared (NIR) region where stimulated Raman scattering (SRS) is utilized to transfer power from a lower wavelength pump to successive higher wavelength Stokes. A wavelength-tunable pump combined with random distributed feedback makes the CRFLs wavelength agile. Broadband point feedback at one end reduces the threshold, leading to multiple cascaded shifts in manageable fiber lengths, generating output in the whole NIR region. Such tunable CRFL can be frequency doubled to obtain a continuously wavelength-tunable visible source. However, the output line widths of such tunable CRFLs are significantly broader than the phase-matching bandwidths of typical nonlinear crystals. Only a small fraction of NIR power is inside the phase-matching bandwidths, leading to poor conversion efficiency. Hence, linewidth reduction of CRFL output is crucial for efficient visible conversion. Using a dual feedback mechanism consisting of an all-wavelength flat plus a desired wavelength narrow feedback, a ∼5× reduction in output linewidths of CRFLs, with multi-watt output powers till six cascaded shifts are obtained without compromising the wavelength tunability of the system. The present work uses a wavelength tunable pump (1055nm to 1095nm) in a dual feedback-based CRFL, providing a linewidth-controlled output in any wavelength in the NIR region. Frequency doubling of the output is carried out to generate continuously tunable visible output from 527nm in green to 710nm in red with powers ∼70mW, with narrow spectral widths (<0.1nm) and single-mode intensity distribution.
+:::
+

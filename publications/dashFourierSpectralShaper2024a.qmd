@@ -1,0 +1,27 @@
+---
+title: >-
+  Fourier spectral shaper assisted feedback for wavelength and linewidth control of cascaded raman fiber lasers
+author:
+  - "**Sarthak Dash**"
+  - Rashmita Deheri
+  - Vishal Choudhury
+  - VR Supradeepa
+issued: 2024
+doi: https://doi.org/10.1364/ol.544060
+type: journal-article
+journal-title: Optics Letters
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashFourierSpectralShaper2024a
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Cascaded Raman fiber lasers (CRFLs) with wavelength-independent feedback can provide power at any wavelength in near-IR regions. However, broad feedback leads to a broad output spectrum, decreasing spectral power density at a desired wavelength. The output characteristics of CRFLs can be controlled by controlling the feedback. We propose using a reflective Fourier spectral shaper with a spatial mask for arbitrary spectral control of the feedback. We achieved coarse wavelength tuning of ∼140 nm using three Raman shifts with a fine wavelength tuning of >13 nm within each Raman band while using a fixed wavelength pump. We achieved ∼3× linewidth reduction with a multi-watt output power and high spectral purity of >94 \%.
+:::

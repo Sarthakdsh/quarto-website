@@ -1,0 +1,27 @@
+---
+title: >-
+  Cascaded raman fiber lasers pumped with narrow linewidth, low intensity noise sources
+author:
+  - Rashmita Deheri
+  - "**Sarthak Dash**"
+  - VR Supradeepa
+  - V Balaswamy
+issued: 2022
+doi: https://doi.org/10.1364/CLEOPR.2022.CTuP1D_03
+type: proceedings-article
+journal-title: Proceedings of the 2022 Conference on Lasers and Electro-Optics Pacific Rim
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @deheriCascadedRamanFiber2022c
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+We demonstrate a cascaded Raman fiber laser with low intensity noise (\&lt;-104dBc/Hz, from 9kHz to 10GHz) and ~99\% spectral purity tunable over 6 Stokes orders, by using very low intensity noise, narrow linewidth pump source.
+:::

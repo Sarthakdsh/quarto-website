@@ -1,0 +1,26 @@
+---
+title: >-
+  Linewidth control of cascaded raman fiber lasers and visible conversion
+author:
+  - "**Sarthak Dash**"
+  - Rashmita Deheri
+  - VR Supradeepa
+issued: 2024
+doi: https://doi.org/10.1117/12.3002546
+type: proceedings-article
+journal-title: "Fiber Lasers XXII: Technology and Systems"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashLinewidthControlCascaded2024
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Cascaded Raman Fiber Lasers (CRFL) are a versatile source for achieving power in Near-Infrared (NIR) wave-lengths, spanning from 1 to 1.9 μm. This is due to transfer of power from the pump to successive Stokes using cascaded Raman conversion. Frequency doubling the output of such widely tunable CRFLs can generate tunable visible lasers from green to red and beyond. But conventional CRFLs have broad linewidths due to the broad Raman gain, which limits the power and efficiency of nonlinear conversion to visible wavelengths. Only a fraction of NIR power is converted to visible, so linewidth control of the generated Stokes is desired. To address this issue, a custom feedback mechanism is used that combines broadband feedback at all wavelengths with filtered feedback at a desired wavelength. This mechanism allows for linewidth control of CRFLs up to the sixth order of Stokes shift and can potentially be extended further till approximately 2 μm, limited by loss and Zero Dispersion Wavelength (ZDWL) in Raman fiber. The result is significantly reduced linewidths from approximately 4-5 nm to <1 nm along with multi-watt class output, as well as fine tuning of wavelength within the Stokes band using a fixed wavelength pump. As proof of concept, over 100 mW of visible power at 557 nm is generated through frequency doubling of the first Stokes along with wavelength tunability.
+:::

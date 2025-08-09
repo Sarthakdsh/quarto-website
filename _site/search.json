@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sarthak Dash",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Blogs/index.html",
+    "href": "Blogs/index.html",
+    "title": "Sarthak Dash",
+    "section": "",
+    "text": "Welcome To my Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nSarthak Dash\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Blogs/welcome/index.html",
+    "href": "Blogs/welcome/index.html",
+    "title": "Welcome To Ampplified Photons",
+    "section": "",
+    "text": "Welcome!"
+  },
+  {
+    "objectID": "Blogs/welcome/index.html#why-this-blog",
+    "href": "Blogs/welcome/index.html#why-this-blog",
+    "title": "Welcome To Ampplified Photons",
+    "section": "Why this blog?",
+    "text": "Why this blog?\nWelcome to the fascinating world of fiber optics and computational physics! This blog will take you on a journey from the basics of Raman amplification to implementing a fully functional simulation in Julia. Whether you’re a graduate student diving into nonlinear optics, a researcher exploring new amplifier designs, or simply curious about how the internet’s backbone actually works, this guide will give you practical, hands-on experience with one of the most important technologies in modern telecommunications."
+  },
+  {
+    "objectID": "Blogs/welcome/index.html#who-is-this-blog-for",
+    "href": "Blogs/welcome/index.html#who-is-this-blog-for",
+    "title": "Welcome To Ampplified Photons",
+    "section": "Who is this blog for?",
+    "text": "Who is this blog for?\nThis blog targets:\n\nGraduate students in optics, photonics, or electrical engineering who need to simulate fiber amplifiers\nResearchers working on telecommunications systems, laser physics, or nonlinear optics\nHobbyists interested in computational physics and fiber optics\nEngineers designing or optimizing optical communication systems"
+  }
+]

@@ -1,0 +1,27 @@
+---
+title: >-
+  Cascaded raman fiber lasers with very high spectral purity and low intensity noise
+author:
+  - Rashmita Deheri
+  - "**Sarthak Dash**"
+  - VR Supradeepa
+  - V Balaswamy
+issued: 2022
+doi: https://doi.org/10.1117/12.2609890
+type: proceedings-article
+journal-title: "Fiber Lasers XIX: Technology and Systems"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @deheriCascadedRamanFiber2022e
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Cascaded Raman fiber laser (CRFLs) based on random distributed feedback (RDFB) are proven to be simple, wavelength agile and power scalable technology. However, they are limited in terms of spectral purity where a small amount of output power resides in unwanted Stokes orders. This is due to the inherent intensity noise of pump source used for Raman conversion, which gets transferred and amplified to multiple Stokes orders. Since each Stoke’s signal acts as a pump for the next Stoke’s signal, spectral purity keeps reducing with increasing Stokes order. Further, this increases spectral broadening in these systems due to nonlinear effects of self-phase modulation (SPM) and Cross-Phase Modulation (XPM), thereby, limiting the narrow linewidth operation. Broad spectral width in CRFLs is attributed to 1) inherent broad (~40THz) Raman gain spectrum, and to 2) nonlinear spectral broadening through SPM and XPM. By employing narrow bandwidth spectral filters for feedback and low intensity noise sources for the pump, narrow linewidth operation can be achieved. Here, we demonstrate a low-intensity noise (<-101dBc/Hz from 9kHz to 10GHz) CRFL with <= 99% spectral purity over 6 Stokes orders. A low-intensity noise (<-147dBc/Hz from 9kHz to 10GHz), Narrow linewidth (DBR, 5MHz) 1064nm laser as a pump source. It is line-broadened to ~50GHz bandwidth through phase modulation with a noise source and a sinusoidal signal to suppress stimulated Brillouin scattering (SBS). It is then amplified to 73W using amplifier chain and a passive Raman fiber of length 340m is used for Raman conversion. This work paves a way to achieve narrow linewidth CRFLs with very high conversion efficiency.
+:::

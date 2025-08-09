@@ -1,0 +1,33 @@
+---
+- id: aroraFrequencyCombbasedSeed2025
+  title: >-
+    Frequency comb-based seed laser architecture with improved brillouin
+    performance for spectral beam combining of narrow-linewidth lasers
+  author:
+    - Shilpi Arora
+    - Soubhik Pal
+    - CG Lakshmi
+    - "**Sarthak Dash**"
+    - VR Supradeepa
+  issued: 2025
+  doi: 10.1109/jphot.2025.3563430
+
+
+- id: dash2021tunable
+  title: Tunable random distributed feedback Raman fiber laser with Fourier spectral shaper for feedback control
+  author: 
+    - "**Sarthak Dash**"
+    - Rashmita Deheri
+    - Vishal Choudhury
+    - VR Supradeepa
+  issued: 2021
+    
+- id: dash2022fourier
+  title: Fourier pulse shaper assisted feedback in cascaded Raman lasers for reduced linewidth and wide wavelength tunability
+  author: 
+    - "**Sarthak Dash**"
+    - Rashmita Deheri
+    - Vishal Choudhury
+    - VR Supradeepa
+  issued: 2022
+...

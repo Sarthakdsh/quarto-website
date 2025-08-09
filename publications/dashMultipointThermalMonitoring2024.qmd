@@ -1,0 +1,28 @@
+---
+title: >-
+  Multi-point thermal monitoring of silicon wafer under processing utilizing a spectrally shaped supercontinuum source
+author:
+  - "**Sarthak Dash**"
+  - Abhigyan Goswami
+  - Rashmita Deheri
+  - Sushobhan Avasthi
+  - VR Supradeepa
+issued: 2024
+doi: https://doi.org/10.1117/12.3002717
+type: proceedings-article
+journal-title: "High-Power Laser Materials Processing: Applications, Diagnostics, and Systems XIII"
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @dashMultipointThermalMonitoring2024
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Optical absorption of silicon atNnear-Infrared (NIR) wavelengths has high temperature dependence which has been utilized for temperature measurement in the current study. We have demonstrated a technique based on transmitted power measurement utilizing a spectrally shaped supercontinuum source, for temperature measurement in a wide range from room temperature to 7000C, with an accuracy of approximately 1 0C for the entire range of temperature measurement with an acquisition speed of milliseconds. It has been observed that shorter wavelengths show high absorption at lower temperatures, whereas longer wavelengths show high absorption at elevated temperatures, and vice versa. As a result, for spectra with exponential roll-off towards longer wavelengths, the transmitted power drops sharply as a function of wafer temperature. Hence, higher accuracy of measurement is possible, which is only limited by the intensity noise of the source. The intensity noise of the source is measured as 1.25%. The intensity noise limited accuracy is approximately 1 0C at 1000C and maximum accuracy of 0.160C is achieved at 7000C.
+:::

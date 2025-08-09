@@ -1,0 +1,28 @@
+---
+title: >-
+  Pulsed cascaded raman fiber laser widely tunable in the second near-infrared and visible window for hyperspectral photoacoustic imaging
+author:
+  - Abhigyan Goswami
+  - Swathi Padmanabhan
+  - "**Sarthak Dash**"
+  - Jaya Prakash
+  - VR Supradeepa
+issued: 2025
+doi: https://doi.org/10.1364/ol.553618
+type: journal-article
+journal-title: Optics Letters
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @goswamiPulsedCascadedRaman2025
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+Pulsed laser sources with nanosecond pulse duration are widely used in numerous noninvasive biomedical imaging applications, notably photoacoustic imaging (PAI), an in vivo imaging modality. Multiple laser sources are required to target the absorption features of multiple endogenous chromophores (optical absorbers inside tissues). We demonstrate a widely tunable pulsed cascaded Raman fiber laser continuously tunable in the second near-infrared window (NIR-II, 1060–1600 nm) and through harmonic conversion in the visible window (530–600 nm, limited by crystal availability in-house) for PAI in multiple wavelength bands. The laser generates pulse energy ∼10 μJ in the NIR-II window and ∼0.1 μJ in the visible window with a high repetition rate tunable from 20 to 80 kHz and a pulse duration tunable from 40 to 200 ns. The source is then used for PAI, demonstrating photoacoustic spectroscopy of lipids in the second resonance of C–H bonds (1145–1257 nm).
+:::

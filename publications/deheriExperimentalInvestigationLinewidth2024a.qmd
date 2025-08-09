@@ -1,0 +1,27 @@
+---
+title: >-
+  Experimental investigation on linewidth evolution of cascaded raman fiber laser pumped with low intensity noise fiber amplifiers
+author:
+  - Rashmita Deheri
+  - "**Sarthak Dash**"
+  - VR Supradeepa
+  - V Balaswamy
+issued: 2024
+doi: https://doi.org/10.1007/978-981-97-6164-7_17
+type: proceedings-article
+journal-title: PHOTONICS 2023. Lecture Notes in Electrical Engineering
+toc: false
+bibliography: publications.bib
+bibliographystyle: ieee.csl
+nocite: |
+  @deheriExperimentalInvestigationLinewidth2024a
+---
+
+:::{.callout-tip collapse="true" title="Citation" icon="false"}
+::: {#refs}
+:::
+:::
+
+:::{.callout-note collapse="false" title="Abstract"}
+We studied the linewidth evolution of generated cascaded Raman Stokes orders as a function of their output power by pumping with a narrow linewidth source, and we compared the linewidth evolution of the spectrum of the Stokes orders of the cascaded Raman fiber laser (CRFL) when pumped with conventional fiber Bragg grating (FBG) based Ytterbium doped fiber laser (YDFL).
+:::

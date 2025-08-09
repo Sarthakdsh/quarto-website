@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    watch-inputs: true
+
+execute: 
+  freeze: auto
+
+website:
+  title: "Sarthak Dash"
+  description: "Fiber laser"
+  navbar:
+    right:
+      - href: about.qmd
+        icon: person-circle
+        text: "About"
+        
+      - text: Publications
+        icon: journal-text
+        href: publications.qmd
+
+      - href: Blogs/index.qmd
+        icon: pencil-square
+        text: Blog
+
+      - href: https://www.linkedin.com/in/sarthak-dsh
+        icon: linkedin
+
+
+  page-footer:
+    background: "#222222"
+    left: "{{< iconify proicons:copyright >}} 2025, Sarthak Dash"
+    right: This website is built with [Quarto](https://quarto.org/)
+
+
+format:
+  html:
+    theme:
+      - darkly
+      - custom.scss
+    css: styles.css
+    toc: true
+    page-layout: full
+    csl: ieee.csl
+
+
+
