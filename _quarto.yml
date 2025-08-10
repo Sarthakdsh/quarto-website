@@ -3,7 +3,8 @@ project:
   output-dir: docs
   preview: 
     watch-inputs: true
-
+  resources: 
+    - "files/*"
 execute: 
   freeze: auto
 
