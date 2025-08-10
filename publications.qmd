@@ -12,7 +12,7 @@ listing:
     contents: publications\
     sort: 
       - "issued dec"
-      - "author dec"
+      - "author asc"
     sort-ui: [issued, title, author]
     filter-ui: [issued, title, author, journal-title]
     fields:
@@ -32,7 +32,7 @@ listing:
     contents: publications\
     sort: 
       - "issued dec"
-      - "author dec"
+      - "author asc"
     sort-ui: [issued, title, author]
     filter-ui: [issued, title, author, journal-title]
     fields:
