@@ -30,11 +30,11 @@ about:
 
     - icon: file-earmark-arrow-down-fill
       text: Download CV
-      href: files\CV.pdf
+      href: files/CV.pdf
 
     - icon: file-earmark-arrow-down-fill
       text: Download Resume
-      href: files\Resume.pdf
+      href: files/Resume.pdf
 ---
 
 ## {{< iconify material-symbols:work >}} Experience
