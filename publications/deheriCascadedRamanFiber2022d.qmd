@@ -22,4 +22,5 @@ nocite: |
 :::
 
 :::{.callout-note collapse="false" title="Abstract"}
+Random distributed feedback (RDFB) cascaded Raman fiber lasers (CRFLs) are simple, wavelength agile, and enable high-power fiber lasers outside emission bandwidths of rare-earth doped fiber lasers. However, the spectral purity, defined as the percentage of total output power in the desired Stokes wavelength band, and relative intensity noise (RIN) of these systems are limited due to the intensity noise of the pump source used for Raman conversion. RIN gets amplified and transferred to Raman Stokes orders which causes incomplete Raman conversion and hence limits the spectral purity. Here, we demonstrate a low-intensity noise (<–100 dBc/Hz from 9 kHz to 10 GHz) CRFL with a record spectral purity of ∼99%, tunable over six Stokes orders, using a very low-intensity noise, narrow linewidth Yb-fiber amplifier as a pump source.
 :::
