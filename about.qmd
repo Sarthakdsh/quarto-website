@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Researcher in Fiber laser"
+description: "*Researcher in Fiber lasers & Nonlinear Optics*"
 image: eddited.png
 format:
   html:
@@ -27,6 +27,14 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Sarthakdsh
+
+    - icon: file-earmark-arrow-down-fill
+      text: Download CV
+      href: files\CV.pdf
+
+    - icon: file-earmark-arrow-down-fill
+      text: Download Resume
+      href: files\Resume.pdf
 ---
 
 ## {{< iconify material-symbols:work >}} Experience
