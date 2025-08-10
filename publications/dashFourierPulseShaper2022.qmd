@@ -8,7 +8,7 @@ author:
   - VR Supradeepa
 issued: 2022
 doi: https://doi.org/10.1117/12.2609623
-type: proceedings-article
+type: conference-proceedings
 journal-title: Optical Components and Materials XIX
 toc: false
 bibliography: publications.bib

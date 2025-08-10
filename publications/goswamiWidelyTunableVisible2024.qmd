@@ -8,7 +8,7 @@ author:
   - VR Supradeepa
 issued: 2024
 doi: https://doi.org/10.1117/12.3000916
-type: proceedings-article
+type: conference-proceedings
 journal-title: "Nonlinear Frequency Generation and Conversion: Materials and Devices XXIII"
 toc: false
 bibliography: publications.bib

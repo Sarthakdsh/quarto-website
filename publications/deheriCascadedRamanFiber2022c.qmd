@@ -8,7 +8,7 @@ author:
   - V Balaswamy
 issued: 2022
 doi: https://doi.org/10.1364/CLEOPR.2022.CTuP1D_03
-type: proceedings-article
+type: conference-proceedings
 journal-title: Proceedings of the 2022 Conference on Lasers and Electro-Optics Pacific Rim
 toc: false
 bibliography: publications.bib

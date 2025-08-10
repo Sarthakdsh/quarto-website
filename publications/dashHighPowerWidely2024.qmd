@@ -6,7 +6,7 @@ author:
   - Rashmita Deheri
   - VR Supradeepa
 issued: 2024
-type: proceedings-article
+type: conference-proceedings
 journal-title: 2024 Conference on Lasers and Electro-Optics Pacific Rim (CLEO-PR)
 toc: false
 bibliography: publications.bib

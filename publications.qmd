@@ -5,28 +5,57 @@ format:
   html: 
     toc: false
 listing:
-  type: table
-  contents: publications\
-  fields:
-    - title
-    - author
-    - issued
+  - id: journal-articles
+    include: 
+      type: "journal-article"
+    type: table
+    contents: publications\
+    sort: 
+      - "issued dec"
+      - "author dec"
+    sort-ui: [issued, title, author]
+    filter-ui: [issued, title, author, journal-title]
+    fields:
+      - issued 
+      - title
+      - author
+      - journal-title
+    field-display-names: 
+      issued: "Year"
+      journal-title: "Journal"
+      author: "Authors"
+
+  - id: conference-proceedings
+    include: 
+      type: "conference-proceedings"
+    type: table
+    contents: publications\
+    sort: 
+      - "issued dec"
+      - "author dec"
+    sort-ui: [issued, title, author]
+    filter-ui: [issued, title, author, journal-title]
+    fields:
+      - issued 
+      - title
+      - author
+      - journal-title
+    field-display-names: 
+      issued: "Year"
+      journal-title: "Proceedings"
+      author: "Authors"
 ---
 
-# Publications
+[{{< iconify fa6-brands:google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=U-FlM8sAAAAJ&hl=en){.btn .btn-outline-primary .bth role="button" data-toggle="tooltip" title="Visit Google Scholar page for citations details"}
 
-Below you can find a sortable and filterable list of my publications. Use the filter options above the table to narrow down by year, publication type, or co-author.
+Below you can find a sortable and filterable list of my publications. Use the filter options above the table to narrow down by year, or co-authors.
 
+## Journal articles
 
+::: {#journal-articles}
+:::
 
-<!-- ---
-title: 'Publications'
-toc: false
-bibliography: publications.bib
-bibliographystyle: ieee.csl
-nocite: |
-  @*
----
+## Conference proceedings
 
-:::{#refs}
-::: -->
+::: {#conference-proceedings}
+:::

@@ -9,7 +9,7 @@ author:
   - VR Supradeepa
 issued: 2024
 doi: https://doi.org/10.1117/12.3002717
-type: proceedings-article
+type: conference-proceedings
 journal-title: "High-Power Laser Materials Processing: Applications, Diagnostics, and Systems XIII"
 toc: false
 bibliography: publications.bib

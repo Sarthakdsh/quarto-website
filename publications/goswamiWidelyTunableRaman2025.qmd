@@ -9,7 +9,7 @@ author:
   - Jaya Prakash
 issued: 2025
 doi: https://doi.org/10.1117/12.3043033
-type: proceedings-article
+type: conference-proceedings
 journal-title: "Photons Plus Ultrasound: Imaging and Sensing 2025"
 toc: false
 bibliography: publications.bib
