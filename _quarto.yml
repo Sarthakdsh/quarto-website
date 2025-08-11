@@ -4,7 +4,7 @@ project:
   preview: 
     watch-inputs: true
   resources: 
-    - "files/*"
+    - "/files/*"
 execute: 
   freeze: auto
 
