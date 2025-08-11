@@ -27,14 +27,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Sarthakdsh
-
-    - icon: file-earmark-arrow-down-fill
-      text: Download CV
-      href: files/CV.pdf
-
-    - icon: file-earmark-arrow-down-fill
-      text: Download Resume
-      href: files/Resume.pdf
 ---
 
 ## {{< iconify material-symbols:work >}} Experience
@@ -114,3 +106,8 @@ B.J.B (Autonomous) College, Bhubaneswar <br> 2012 – 2015
 -   **Best Oral Presentation Award**, $11^{th}$ CeNSE Student Research Symposium (2024)
 
 -   **National-Level Examinations**: GATE (AIR 126, 2018), NET (2017), IIT-JAM (AIR 501, 2015)
+
+
+[{{<iconify ic:round-download>}} Download CV](./files/CV.pdf){.btn .btn-primary}
+
+[{{<iconify ic:round-download>}} Download Resume](./files/Resume.pdf){.btn .btn-primary }
