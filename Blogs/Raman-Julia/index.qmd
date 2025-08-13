@@ -53,7 +53,7 @@ When light interacts with molecular vibrations in glass, there can be transfer o
 
 ### The power-balance equation
 
-The heart of Raman amplifier simulation lies in two coupled ordinary differential equations (ODEs) that describe how pump and signal (Stokes) powers evolve along the fiber [@agrawal2013][@headley2005] $$
+The heart of Raman amplifier simulation lies in two coupled ordinary differential equations (ODEs) that describe how pump and signal (Stokes) powers evolve along the fiber [@agrawal2013; @headley2005] $$
 \begin{align} \\
 &\mathbf{Signal\ equation:}
 &\frac{dP_{s}}{dz}&= g_{R}P_{p}P_{s} - \alpha_{s}P_{s} \\
