@@ -14,13 +14,13 @@ execute:
 
 ## 🚀 What You’ll Learn in This Post
 
--    A quick primer on **Raman fiber amplifiers** and their role in modern **optical communication systems**.
--    The **physics and equations** behind **Raman gain** and **signal-pump interactions**.
--    How to **simulate Raman amplifiers** using **Julia programming language** for **high-performance computing**.
--    Techniques to **optimize Julia code** using **StaticArrays**, **in-place operations**, and **memory-efficient design**.
--    Visual plot of **power evolution** along the fiber length.
--    Benchmarking results comparing **Julia vs Python** for scientific simulations.
--    Access to **Julia code snippets**, explanations, and performance tips for hands-on learning.
+-   A quick primer on **Raman fiber amplifiers** and their role in modern **optical communication systems**.
+-   The **physics and equations** behind **Raman gain** and **signal-pump interactions**.
+-   How to **simulate Raman amplifiers** using **Julia programming language** for **high-performance computing**.
+-   Techniques to **optimize Julia code** using **StaticArrays**, **in-place operations**, and **memory-efficient design**.
+-   Visual plot of **power evolution** along the fiber length.
+-   Benchmarking results comparing **Julia vs Python** for scientific simulations.
+-   Access to **Julia code snippets**, explanations, and performance tips for hands-on learning.
 
 ## 🤔 What is Raman fiber amplifier, and why simulate it?
 
@@ -53,7 +53,7 @@ When light interacts with molecular vibrations in glass, there can be transfer o
 
 ### The power-balance equation
 
-The heart of Raman amplifier simulation lies in two coupled ordinary differential equations (ODEs) that describe how pump and signal (Stokes) powers evolve along the fiber [@agrawal2013] $$
+The heart of Raman amplifier simulation lies in two coupled ordinary differential equations (ODEs) that describe how pump and signal (Stokes) powers evolve along the fiber [@agrawal2013][@headley2005] $$
 \begin{align} \\
 &\mathbf{Signal\ equation:}
 &\frac{dP_{s}}{dz}&= g_{R}P_{p}P_{s} - \alpha_{s}P_{s} \\
@@ -99,11 +99,11 @@ Pkg.add(["DifferentialEquations",
       "StaticArrays"])
 ```
 
--  We already know about [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), the powerhouse ODE solver suite with over 200 methods. This gives us access to robust, high-performance solvers specifically designed for stiff systems common in nonlinear optics. 
--  [Plots.jl](https://docs.juliaplots.org/latest/) is Julia's most popular plotting package. Its recipe system leads to `plot(sol)` automatically knowing how to visualize ODE solutions—perfect for our simulations. 
--  [BenchmarkTools.jl](https://juliaci.github.io/BenchmarkTools.jl/stable/) provide professional-grade benchmarking tools in Julia. Essential for optimizing our simulation performance and understanding computational bottlenecks. 
--  [LaTeXStrings.jl](https://github.com/JuliaStrings/LaTeXStrings.jl) makes it easy to type LaTeX strings in Julia.
--  [StaticArrays.jl](https://juliaarrays.github.io/StaticArrays.jl/stable/) helps in implementing statically sized arrays in Julia which can lead to performance advantages. More on this will be discussed later.
+-   We already know about [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/), the powerhouse ODE solver suite with over 200 methods. This gives us access to robust, high-performance solvers specifically designed for stiff systems common in nonlinear optics.
+-   [Plots.jl](https://docs.juliaplots.org/latest/) is Julia's most popular plotting package. Its recipe system leads to `plot(sol)` automatically knowing how to visualize ODE solutions—perfect for our simulations.
+-   [BenchmarkTools.jl](https://juliaci.github.io/BenchmarkTools.jl/stable/) provide professional-grade benchmarking tools in Julia. Essential for optimizing our simulation performance and understanding computational bottlenecks.
+-   [LaTeXStrings.jl](https://github.com/JuliaStrings/LaTeXStrings.jl) makes it easy to type LaTeX strings in Julia.
+-   [StaticArrays.jl](https://juliaarrays.github.io/StaticArrays.jl/stable/) helps in implementing statically sized arrays in Julia which can lead to performance advantages. More on this will be discussed later.
 
 Now let's import the necessary packages
 
@@ -150,7 +150,7 @@ function Raman1!(dP, P, a, z)
 end
 ```
 
-This function defines our ODE system in the form required by DifferentialEquations.jl. The `!` indicates an in-place function that modifies dP directly — more efficient for large systems. Here $r$ denotes the ratio of pump to signal frequency $r=\nu_{p}/\nu_{s}$
+This function defines our ODE system in the form required by `DifferentialEquations.jl`. The `!` indicates an in-place function that modifies dP directly — more efficient for large systems. Here $r$ denotes the ratio of pump to signal frequency $r=\nu_{p}/\nu_{s}$
 
 #### Step 3: Configure and solve the ODE system
 
@@ -269,9 +269,9 @@ That’s a 3x speedup with significantly fewer allocations — an impressive gai
 
 Lets see how does out Julia code stack up against Python — the scientist’s standby — for a task like a Raman fiber amplifier simulation using standard ODE solvers? Below is a self-contained Python version (using NumPy and SciPy) — the same ODE and parameters.
 
-::: {.callout-note icon=false collapse="true" title="Python code"}
+:::: {.callout-note icon="false" collapse="true" title="Python code"}
 ::: {#lst-pythoncode lst-cap=""}
-```python
+``` python
 import numpy as np
 from scipy.integrate import solve_ivp
 
@@ -287,9 +287,9 @@ sol = solve_ivp(Raman1, (0,50.0) , [2.0, 1e-3],
               args=(1550.0/1450.0, 0.23/4.343, 0.19/4.343, 0.4))
 ```
 :::
-:::
+::::
 
-We use the [PythonCall.jl](https://juliapy.github.io/PythonCall.jl/stable/) package to run native Python code from Julia. Here, we define our Python code as a string in Julia using the syntax `py"""<python code here>"""`. We wrap the above Python [code @lst-pythoncode] within a python fuction returning the result of `sol` (ODE solved in python) as a dictionary that can be passed to Julia. 
+We use the [PythonCall.jl](https://juliapy.github.io/PythonCall.jl/stable/) package to run native Python code from Julia. Here, we define our Python code as a string in Julia using the syntax `py"""<python code here>"""`. We wrap the above Python [code @lst-pythoncode] within a python function returning the result of `sol` (ODE solved in python) as a dictionary that can be passed to Julia.
 
 ```{julia}
 #| code-fold: true
@@ -321,7 +321,7 @@ py_raman_amp = py"raman_amp_python"
 result = py_raman_amp();
 ```
 
-Once we have sucessfully solved the ODE in python by calling it from Julia, now let's benchmark it.
+Once we have successfully solved the ODE in python by calling it from Julia, now let's benchmark it.
 
 ```{julia}
 @btime py_raman_amp();
@@ -331,15 +331,14 @@ The python implementation of the same code is 120x slower than our first Julia i
 
 |         Code         | Time taken | Allocations | Memory used |
 |:--------------------:|:----------:|:-----------:|:-----------:|
-|    Julia (Basic)     |   16 μs    |     85      |  4.59 KiB   |
-| Julia (StaticArrays) |   5.5 μs   |     25      |  1.92 KiB   |
-|        Python        |    2 ms    |     126     |  5.37 KiB   |
+|    Julia (Basic)     |  \~16 μs   |     85      |  4.59 KiB   |
+| Julia (StaticArrays) |  \~5.5 μs  |     25      |  1.92 KiB   |
+|        Python        |  \~2.2 ms  |     126     |  5.37 KiB   |
 
 : Comparision of benchmark results
 
 ## Conclusion
 
-In this post, we looked at how to simulate Raman amplifiers using Julia. We then tried to optimise out code for performance and finally compared our Julia code with the Python implemetation.
- 
-In this post, I have simulated for the co-pumped and single Raman shift based amplifier. In subsequent posts, I’ll explore multiple Raman shifts and also counter-pumped case.
+In this post, we looked at how to simulate Raman amplifiers using Julia. We then tried to optimize the code for performance and finally compared our Julia code with the Python implementation.
 
+Here, I have simulated the co-pumped and single Raman shift based amplifier. In subsequent posts, I’ll explore multiple Raman shifts and also counter-pumped case.
