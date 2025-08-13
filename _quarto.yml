@@ -5,8 +5,7 @@ project:
     watch-inputs: true
   resources: 
     - "/files/*"
-execute: 
-  freeze: auto
+
 
 website:
   title: "Sarthak Dash"

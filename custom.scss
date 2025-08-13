@@ -1,3 +1,45 @@
 /*-- scss:defaults --*/
-$code-bg: #222222;
-$code-color: #b87bcf;
+
+// Colors
+$charcoal-black: #121212;
+$light-gray: #E0E0E0;
+$medium-gray: #B0B0B0;
+$dark-gray: #444444;
+$soft-gray: #888888;
+$slate-gray: #2C2C2C;
+$light-cyan: #C8E3E5;
+$soft-pink: #FFC1CC;
+$lavender: #B39CD0;
+$dark-teal: #004D61;
+$dark-purple: #380038;
+$deep-ruby: #822659;
+$forest-green: #3E5641;
+$cream: #FDFBF7;
+$purple: #b87bcf;
+
+// Base document colors
+$body-bg: $charcoal-black;
+$body-color: $light-gray;
+$navbar-bg: $dark-teal;
+$navbar-hl: $light-cyan;
+
+$code-bg: $charcoal-black;
+$code-color: $purple;
+
+$code-block-bg: $slate-gray;
+
+/*-- scss:rules --*/
+strong {
+    font-weight: 900;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: underline;
+    /* Accent color */
+    border-left: 3px solid #4dd0e1;
+    padding-left: 0.4em;
+    margin-top: 1.2em;
+}
