@@ -8,8 +8,6 @@ code-annotations: hover
 bibliography: references.bib
 highlight-style: monokai
 engine: julia
-execute: 
-  freeze: true
 ---
 
 ## 🚀 What You’ll Learn in This Post
@@ -122,7 +120,7 @@ Let's implement our Raman amplifier simulation step by step:
 #| output: false
 # ------- Signal parameters -------
 λs = 1550.0   # Signal wavelength (nm)  
-Ps_0 = 1e-3   # Input signal power (W)       
+Ps_0 = 1e-4   # Input signal power (W)       
 
 # ------- Pump parameters -------
 λp = 1450.0   # Pump wavelength (nm)
@@ -188,7 +186,7 @@ We use `Tsit5()`, a high-quality Runge-Kutta method that's excellent for non-sti
 #### Step 4: Visualize the results
 
 ```{julia}
-#| label: fig-Raman1
+#| label: fig-Raman
 #| fig-cap: Power evolution of pump and signal along the fiber length.
 plot(sol.t, [to_dBm.(sol[1,:]), to_dBm.(sol[2,:])],
     linewidth = 2,
@@ -265,6 +263,36 @@ prob = ODEProblem(Raman1_Static, P0, zspan, a);
 
 That’s a 3x speedup with significantly fewer allocations — an impressive gain for such a small change. This is especially valuable when scaling up simulations or running them repeatedly.
 
+### Log-transform of the power-balance equation
+
+We see that the power evolves exponentially. For a numerical solver with adaptive steps (such as the `Tsit5()`), it has to take smaller steps when values change very rapidly. If we solve for log of power, the values change much gradually and the solver can take larger and less number of steps, potentially speeding up the simulation. For example, in the simulation presented here, the signal power changes in the range of $1 \times 10^{-3}$ W to about 1 W, which is three orders of magnitude, but in dB scale, it changes from 0 dBm to 30 dBm. Shifting to log-scale also has added advantage as it prevents negative power values and propagation of round-off errors. Using this intuition, lets do some substitution in the power balance equations (@eq-power-balance1). Lets $Q_{s} = \ln P_{s}$ and $Q_{p} = \ln P_{p}$. then we have the log-power-balance equation as:
+
+$$
+\begin{align}
+\frac{d Q_{s}}{dz} &=  -\alpha_{s} + g_{R}\, e^{Q_{p}} \\
+\frac{d Q_{p}}{dz} &=  -\alpha_{p} - r\,g_{R}\, e^{Q_{s}}
+\end{align}
+$$ {#eq-log-power-balance1}
+
+Now we solve for $Q_p(z)$ and $Q_s(z)$.
+
+```{julia}
+function log_Raman1_Static(Q, a, z)
+    r, α_p, α_s, gR = a
+    Qp, Qs = Q
+
+    dQp = -α_p - r * gR * exp(Qs)
+    dQs = -α_s + gR * exp(Qp)
+
+    return SA[dQp, dQs]
+end
+
+prob = ODEProblem(log_Raman1_Static, log.(P0), zspan, a);
+@btime solve(prob, Tsit5(), save_everystep=false);
+```
+
+Wow! That's even faster than the previous implementation with same allocations.
+
 ## ✨ Bonus: Benchmarking with Python
 
 Lets see how does out Julia code stack up against Python — the scientist’s standby — for a task like a Raman fiber amplifier simulation using standard ODE solvers? Below is a self-contained Python version (using NumPy and SciPy) — the same ODE and parameters.
@@ -327,13 +355,14 @@ Once we have successfully solved the ODE in python by calling it from Julia, now
 @btime py_raman_amp();
 ```
 
-The python implementation of the same code is 120x slower than our first Julia implementation and more than 350x slower than out StaticArray based Julia code.
+The python implementation of the same code is 130x slower than our first Julia implementation and more than 400x slower than out StaticArray based Julia code.
 
 |         Code         | Time taken | Allocations | Memory used |
 |:--------------------:|:----------:|:-----------:|:-----------:|
-|    Julia (Basic)     |  \~16 μs   |     85      |  4.59 KiB   |
-| Julia (StaticArrays) |  \~5.5 μs  |     25      |  1.92 KiB   |
-|        Python        |  \~2.2 ms  |     126     |  5.37 KiB   |
+|        Python        |   \~2 ms   |     126     |  5.37 KiB   |
+|    Julia (Basic)     |  \~15 μs   |     85      |  4.59 KiB   |
+| Julia (StaticArrays) |   \~5 μs   |     25      |  1.92 KiB   |
+| Julia(Log-transform) |  \~4.3 μs  |     25      |  1.92 KiB   |
 
 : Comparision of benchmark results
 
