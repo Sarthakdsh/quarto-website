@@ -116,7 +116,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I have over 7 years of hands-on experience in optical systems, spanning free-space optical communications, high-power fiber lasers, nonlinear frequency conversion, and precision industrial sensing."
+    "text": "Primary optical architect for satellite laser communication payloads, sub-\\(\\mu\\text{rad}\\) PAT subsystems, and ground-station receivers.\nBuilt an end-to-end PAT acquisition testbed and validated multi-km terrestial optical communication link.\nDesigned sub-\\(\\mu\\text{rad}\\) QPD/FSM closed-loop tracking loops for rapid beam acquisition and platform jitter rejection.\nConducted space-qualification vendor evaluations, transmitter/beacon selection, and end-to-end SNR/BER optical link budget modeling aligned with SDA OCT and CCSDS standards."
   },
   {
     "objectID": "about.html#experience",
