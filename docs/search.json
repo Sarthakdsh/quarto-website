@@ -100,9 +100,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sarthak Dash",
+    "title": "Sarthak Dash, Ph.D.",
     "section": "",
-    "text": "Welcome to my website!\n\nI am a researcher specializing in fiber lasers and nonlinear optics, passionate about advancing photonics technologies and translating lab innovations into practical solutions."
+    "text": "I am an optical researcher/engineer passionate about translating optical systems into field-deployed hardware and commercial products. Across space-grade communication payloads, high-power fiber laser architectures, and precision non-contact semiconductor dedicated to translating fundamental light-matter physics into field-deployed hardware, industrial instrumentation, and commercial products."
   },
   {
     "objectID": "Blogs/index.html",
@@ -114,35 +114,35 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "Sr. Research Fellow\n\nCeNSE, Indian Institute of Science, Bangalore  03/2025 - present\n\n\n\n\nProj. Associate II\n\nCeNSE, Indian Institute of Science, Bangalore  08/2024 – 03/2025"
+    "text": "I have over 7 years of hands-on experience in optical systems, spanning free-space optical communications, high-power fiber lasers, nonlinear frequency conversion, and precision industrial sensing."
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
-    "title": "About",
-    "section": "",
-    "text": "Sr. Research Fellow\n\nCeNSE, Indian Institute of Science, Bangalore  03/2025 - present\n\n\n\n\nProj. Associate II\n\nCeNSE, Indian Institute of Science, Bangalore  08/2024 – 03/2025"
+    "title": "About Me",
+    "section": " Experience",
+    "text": "Experience\n\n\nFounding Optical Engineer\n\nQOSMIC Satellite Systems Pvt. Ltd., Bangalore  01/2026 - Present\n\n\n\n\nSr. Research Fellow\n\nCeNSE, Indian Institute of Science, Bangalore  03/2025 - 12/2025\n\n\n\n\nProj. Associate II\n\nCeNSE, Indian Institute of Science, Bangalore  08/2024 – 03/2025"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About",
+    "title": "About Me",
     "section": " Education",
     "text": "Education\n\n\nPhD\n\nIndian Institute of Science, Bangalore  2018 – 2024\n\n\n\n\nMSc\n\nNational Institute of Technology, Rourkela  2015 – 2017\n\n\n\n\nBSc\n\nB.J.B (Autonomous) College, Bhubaneswar  2012 – 2015"
   },
   {
     "objectID": "about.html#technical-skills",
     "href": "about.html#technical-skills",
-    "title": "About",
+    "title": "About Me",
     "section": " Technical Skills",
-    "text": "Technical Skills\n\nFiber laser: Design and fabrication of fiber lasers (CW and pulsed), Raman fiber lasers, and amplifiers\nFiber processing: stripping, cleaving, splicing, recoating of normal and specialty fibers\nNonlinear conversion: Freq. doubling using nonlinear crystals - BBO, LBO, PPLN\nFree-space setups: pulse shapers, grating filters, beam combiners, collimators, and coupling systems\nSimulations: fiber lasers, Raman lasers, nonlinear pulse propagation, harmonic generation and free-space optics\nSoftwares: Python, Julia, Mathematica, COMSOL, Zemax"
+    "text": "Technical Skills\n\nFree-Space & Space Optics: FSOC Terminal Architecture, Link Budgeting, Space Qualification, SDA OCT / CCSDS Standards\nControl Systems: QPD Signal Chain Design, FSM Closed-Loop Control, Sub-\\(\\mu\\text{rad}\\) Tracking, Platform Jitter Rejection\nFiber laser: Design and fabrication of fiber lasers (CW and pulsed), Raman fiber lasers, and amplifiers\nFiber processing: stripping, cleaving, splicing, recoating of normal and specialty fibers\nNonlinear conversion: Freq. doubling using nonlinear crystals - BBO, LBO, PPLN\nFree-space setups: pulse shapers, grating filters, beam combiners, collimators, and coupling systems\nSimulations: link budget, propagation through turbulence, fiber lasers, Raman lasers, nonlinear pulse propagation, harmonic generation and free-space optics\nSoftwares: Python, Julia, Mathematica, COMSOL, Zemax, OptiSystem, FreeCad"
   },
   {
     "objectID": "about.html#awards-achievements",
     "href": "about.html#awards-achievements",
-    "title": "About",
+    "title": "About Me",
     "section": " Awards & Achievements",
     "text": "Awards & Achievements\n\nSPIE Photonics West “Fiber lasers” Travel Grant (2024 & 2025)\nSERB International Travel Support (ITS) (2024)\nBest Oral Presentation Award, \\(11^{th}\\) CeNSE Student Research Symposium (2024)\nNational-Level Examinations: GATE (AIR 126, 2018), NET (2017), IIT-JAM (AIR 501, 2015)\n\n Download CV\n Download Resume"
   },
@@ -299,5 +299,47 @@
     "title": "Brillouin-assisted generation and demultiplexing of widely tunable high-repetition rate 1064 nm optical frequency combs with applications in spectral beam combining",
     "section": "",
     "text": "Citation\n\n\n\n\n\n\n\n[1] S. Pal, S. Arora, S. Dash, C. G. Lakshmi, and V. R. Supradeepa, “Brillouin-assisted generation and demultiplexing of widely tunable high-repetition rate 1064 nm optical frequency combs with applications in spectral beam combining,” Optics Express, vol. 33, no. 10, p. 21105, May 2025, doi: 10.1364/oe.560505.\n\n\n\n\n\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThe generation and demultiplexing of high-repetition-rate optical frequency combs (OFC) have many applications, including optical metrology, microwave signal generation, and high-resolution spectroscopy. One such novel application is in generating cost-effective seed sources for spectral beam combination (SBC) of multiple fiber laser modules. SBC enables high power-scaling in hundreds of kilowatts, but it requires multiple laser diodes as seed sources, and each source needs its own individual temperature and wavelength stabilization, increasing cost and system complexity. De-multiplexed OFC lines can provide efficient seed sources for SBC, requiring a single laser diode as a seed source. Seed sources at 1 μm are important due to the availability of efficient gain media such as ytterbium-doped fiber amplifiers (YDFA). However, due to the lack of components required for generating high-repetition-rate combs(&gt;40 GHz) and high-resolution demultiplexing of OFCs at 1 μm range, such applications are limited. In this work, we demonstrate the generation of tunable high repetition-rate 1 μm OFCs by selective amplification of low-repetition-rate comb lines. Two combs with repetition rates ranging from 9-13 GHz are counter-propagated in a nonlinear Brillouin gain medium. By suitably changing the repetition rates of the combs through selective Brillouin gain due to the Vernier effect, amplified combs with user-defined line spacing of up to 48 GHz were obtained. The spacing could also be tuned in fine steps of 100 MHz or lower. The de-interleaved combs could be demultiplexed using a grating-based demultiplexer. Such sources promise to be a compact replacement for SBC seed sources while also having applications in arbitrary waveform generation and optical metrology."
+  },
+  {
+    "objectID": "index.html#technical-expertise",
+    "href": "index.html#technical-expertise",
+    "title": "Sarthak Dash, Ph.D.",
+    "section": "Technical Expertise",
+    "text": "Technical Expertise\n\n\n🛰️ Free-Space Optical Comm. (FSOC) & PAT\nFocus: Space Payload & Ground Station Terminal Architecture\n* Outcomes: Architected end-to-end multi km terrestrial optical communications link and sub-microradian QPD/FSM closed-loop tracking subsystems.\n* Core Tech: Space-qualified transmitter qualification, SDA OCT / CCSDS compliance, PAT system, and custom SNR/BER link budgeting tools.\n\n\n⚡ High-Power Fiber Lasers & Amplifiers\nFocus: Custom Amplifier Chains & Linewidth Engineering\n* Outcomes: Engineered custom fiber amplifier architectures in Yb, Er (EDFA/MOPA chains), and Raman setups. Developed cascaded Raman fiber lasers achieving 5× spectral density improvement and &gt;99% spectral purity.\n* Core Tech: Fourier pulse shapers, high-power laser systems, low-intensity noise pumping, and specialty fiber processing (stripping, cleaving, splicing).\n\n\n🌈 Nonlinear Frequency Conversion\nFocus: Continuous-Wave (CW) & Pulsed Visible Sources\n* Outcomes: Designed harmonic conversion chains (SHG via BBO, LBO, PPLN) converting NIR fiber lasers into widely tunable visible sources (530–720 nm and blue-violet regimes).\n* Core Tech: Wavelength-tunable CW and pulsed laser engines engineered for hyperspectral photoacoustic imaging, spectroscopy, and industrial diagnostics.\n\n\n🏭 Semiconductor Process Diagnostics\nFocus: Non-Contact Optical Metrology\n* Outcomes: Co-invented a spectrally shaped supercontinuum thermal monitoring system achieving best-in-class \\(\\pm 1^\\circ\\text{C}\\) wafer temperature measurement accuracy in collaboration with leading semiconductor equipment partner.\n* Core Tech: Arbitrary spectral shaping, pyrometry, free-space beam delivery, and non-contact industrial monitoring hardware."
+  },
+  {
+    "objectID": "about.html#bio-engineering-philosophy",
+    "href": "about.html#bio-engineering-philosophy",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a Founding Optical Engineer and researcher with over 7 years of hands-on experience spanning free-space optical communications (FSOC), high-power fiber lasers, nonlinear frequency conversion, and precision industrial sensing[cite: 1].\nMy engineering core belief is simple: research achieves its true value when translated into deployed products and real-world applications[cite: 1, 2]. Rather than focusing solely on theoretical models, I specialize in building system-level hardware—from first-principles numerical modeling and custom fiber processing to space-qualification trade studies and atmospheric link integration[cite: 1, 2]."
+  },
+  {
+    "objectID": "about.html#applied-engineering-pillars",
+    "href": "about.html#applied-engineering-pillars",
+    "title": "About Me",
+    "section": "Applied Engineering Pillars",
+    "text": "Applied Engineering Pillars\n\n🛰️ Space & Terrestrial FSOC\n\nProduct & Field Impact: Lead optical decision-maker for satellite payload transmitter chains and ground station receivers[cite: 1]. Designed end-to-end Pointing, Acquisition, and Tracking (PAT) acquisition architectures and validated a ~3 km atmospheric optical link[cite: 1].\nCore Systems: Sub-\\(\\mu\\text{rad}\\) QPD/FSM closed-loop tracking[cite: 1], optical link budgeting (SNR/BER)[cite: 1], space-qualification vendor evaluation[cite: 1], and compliance with SDA OCT / CCSDS standards[cite: 1].\n\n\n\n⚡ High-Power Fiber Lasers & Amplifier Engines\n\nProduct & Field Impact: Architected custom MOPA and amplifier chains across Yb, Er, and Raman-doped gain media[cite: 1]. Built novel cascaded Raman fiber lasers achieving a 5× improvement in spectral density with &gt;99% spectral purity[cite: 2].\nCore Systems: Fourier pulse shapers for Cavity spectral control[cite: 1, 2], supercontinuum source generation[cite: 2], and specialty fiber processing (stripping, cleaving, splicing standard & specialty fibers)[cite: 1].\n\n\n\n🔮 Nonlinear Frequency Conversion (CW & Pulsed)\n\nProduct & Field Impact: Developed wavelength-tunable visible laser sources (spanning CW green, yellow, red, and blue-violet regimes)[cite: 1] engineered for hyperspectral photoacoustic imaging[cite: 2] and high-power industrial spectroscopy[cite: 1].\nCore Systems: Harmonic generation (SHG)[cite: 1], non-linear crystal phase-matching optimization (BBO, LBO, PPLN)[cite: 1], and passively Q-switched Raman seed engines[cite: 3].\n\n\n\n🏭 Industrial & Semiconductor Process Diagnostics\n\nProduct & Field Impact: Co-invented a spectrally shaped supercontinuum non-contact thermal monitoring system for in-process silicon wafers, achieving best-in-class \\(\\pm 1^\\circ\\text{C}\\) accuracy (patent filed with industry partners)[cite: 2].\nCore Systems: Custom spectral shaping[cite: 2], optical pyrometry[cite: 2], and multi-point optical diagnostic train alignment[cite: 1, 2]."
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About Me",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nQosmic Satellite Systems | Founding Optical Engineer\nJan 2026 – Present | Bengaluru, India[cite: 1] * Primary decision-maker across the FSOC system transmitter chain, PAT subsystem, and ground-station receiver[cite: 1]. * Architected end-to-end PAT acquisition and communications validation testbed for a ~3 km terrestrial atmospheric link[cite: 1]. * Designed sub-\\(\\mu\\text{rad}\\) precision QPD/FSM closed-loop tracking loops and built internal numerical toolkits for atmospheric turbulence, SNR/BER trade studies, and link budgeting[cite: 1].\n\n\nIndian Institute of Science (IISc) | Senior Research Fellow\nMar 2025 – Dec 2025 | Bengaluru, India[cite: 1] * Extended cascaded Raman laser systems into the blue-violet spectral window, enabling high-power visible source capability for advanced spectroscopy[cite: 1].\n\n\nIndian Institute of Science (IISc) | Project Associate\nAug 2024 – Mar 2025 | Bengaluru, India[cite: 1] * Built a single-mode visible laser source wavelength-tunable from 530–720 nm (&gt;100 mW green, ~70 mW yellow, ~55 mW red, &lt;100 GHz linewidth) for biomedical imaging[cite: 1].\n\n\nIndian Institute of Science (IISc) | Ph.D. Researcher\nAug 2018 – Oct 2024 | Bengaluru, India[cite: 2] * Thesis: Architectures for Linewidth Reduction in Cascaded Raman Fiber Lasers and Applications[cite: 2]. * Published 7 peer-reviewed journal papers (Optics Letters, Optics Express) and 15 conference proceedings[cite: 1, 2, 3]. * Mentored 4+ graduate students and served as peer reviewer for 14+ optical journal manuscripts[cite: 1, 2]."
+  },
+  {
+    "objectID": "about.html#technical-skills-toolchain",
+    "href": "about.html#technical-skills-toolchain",
+    "title": "About Me",
+    "section": "Technical Skills & Toolchain",
+    "text": "Technical Skills & Toolchain\n\nFree-Space & Space Optics: FSOC Terminal Architecture, Link Budgeting, Space Qualification, SDA OCT / CCSDS Standards, Autocollimators, Alignment Optical Trains[cite: 1].\nControl & Optomechanics: QPD Signal Chain Design, FSM Closed-Loop Control, Sub-\\(\\mu\\text{rad}\\) Tracking, Platform Jitter Rejection[cite: 1].\nLaser Amplifiers & Optics: Yb / Er / Raman Amplifiers & MOPA Chains[cite: 1], Cascaded Raman Lasers[cite: 2], Harmonic Conversion (SHG, BBO, LBO, PPLN)[cite: 1], Specialty Fiber Processing[cite: 1].\nDesign & Physics Solvers: Zemax OpticStudio[cite: 1], COMSOL[cite: 1], Custom Julia / Python SSFM & NLSE PDE Solvers[cite: 1], MATLAB[cite: 1], Atmospheric Propagation Modeling[cite: 1]."
+  },
+  {
+    "objectID": "about.html#education-key-honors",
+    "href": "about.html#education-key-honors",
+    "title": "About Me",
+    "section": "Education & Key Honors",
+    "text": "Education & Key Honors\n\nPh.D. in Photonics & Fiber Lasers | Indian Institute of Science (IISc), Bangalore (2018–2024)[cite: 2]\nM.Sc. in Physics | National Institute of Technology (NIT), Rourkela (2015–2017)[cite: 2]\nSPIE Photonics West Travel Grant Awardee (2024, 2025)[cite: 2]\nSERB International Travel Support (ITS) (2024)[cite: 2]\nBest Oral Presentation Award | 11th CeNSE Student Research Symposium (2024)[cite: 2]\nGATE Physics: All India Rank 126 (2018)[cite: 2]"
   }
 ]

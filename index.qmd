@@ -1,6 +1,6 @@
 ---
-title: "Sarthak Dash"
-description: "*Researcher in Fiber lasers & Nonlinear Optics* <br> <br> {{< iconify typcn:location >}}Indian Institute of Science, Bangalore"
+title: "Sarthak Dash, Ph.D."
+description: "*Founding Optical Engineer <br> Free-Space Optical Communications | Fiber laser & Nonlinear Optics*"
 image: me(1).jpg
 format:
   html:
@@ -32,8 +32,22 @@ about:
       href: https://github.com/Sarthakdsh
 ---
 
-:::{.hero}
-Welcome to my website!
+<style>
+#title-block-header .quarto-title,
+#title-block-header .description {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+</style>
+
+
+
+::: {.my-4}
 :::
 
-I am a researcher specializing in fiber lasers and nonlinear optics, passionate about advancing photonics technologies and translating lab innovations into practical solutions.
+::: {.lead style="font-size: 1.1rem;"} 
+I am an optical researcher/engineer passionate about translating optical systems into field-deployed hardware and commercial products. Across space-grade communication payloads, high-power fiber laser architectures, and precision non-contact semiconductor dedicated to translating fundamental light-matter physics into field-deployed hardware, industrial instrumentation, and commercial products.
+:::
+

@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: "*Researcher in Fiber lasers & Nonlinear Optics*"
+title: "About Me"
+description: "*I have over 7 years of hands-on experience in optical systems, spanning free-space optical communications, high-power fiber lasers, nonlinear frequency conversion, and precision industrial sensing. *"
 image: eddited.png
 format:
   html:
@@ -29,7 +29,96 @@ about:
       href: https://github.com/Sarthakdsh
 ---
 
+<style>
+  @media (min-width: 768px) {
+  .quarto-about-trestles {
+    display: grid;
+    /* Left column : Right column ratio */
+    grid-template-columns: 40% 60% !important; 
+    gap: 2.5em; /* Space between columns */
+  }
+}
+</style>
+
+
+
+#### {{< iconify material-symbols:satellite-alt >}} Free Space Optical Communications
+
+- Primary optical architect for satellite laser communication payloads, sub-$\mu\text{rad}$ PAT subsystems, and ground-station receivers. 
+
+- Built an end-to-end PAT acquisition testbed and validated multi-km terrestial optical communication link.
+
+- Designed sub-$\mu\text{rad}$ QPD/FSM closed-loop tracking loops for rapid beam acquisition and platform jitter rejection.
+
+- Conducted space-qualification vendor evaluations, transmitter/beacon selection, and end-to-end SNR/BER optical link budget modeling aligned with SDA OCT and CCSDS standards.
+
+
+#### {{< iconify material-symbols:stylus-laser-pointer >}} High-Power Fiber Lasers
+
+- Architected custom high-power amplifier chains across Yb-, Er-, and Raman-doped gain media.
+
+- Developed linewidth-reduced cascaded Raman fiber laser architectures achieving a 5× improvement in spectral density with >99% spectral purity.
+
+- Designed reflective Fourier pulse shaper and free-space optical filters for laser cavity spectral control.
+
+- Performed custom specialty fiber processing, precision fusion splicing, and multi-element optical train alignment.
+
+
+#### {{< iconify material-symbols:palette >}} Nonlinear Frequency Conversion
+
+- Developed frequency-doubled single-mode visible CW laser sources continuously tunable from 530–720 nm (>100 mW green, ~70 mW yellow, ~55 mW red, <100 GHz linewidth).
+
+- Extended cascaded Raman lasers into the blue-violet spectral window for high-power spectroscopy applications.
+
+- Built passively Q-switched pulsed Raman laser platforms widely tunable across the second NIR and visible windows for hyperspectral photoacoustic imaging.
+
+- Optimized non-linear frequency conversion chains using phase-matched BBO, LBO, and PPLN crystals.
+
+
+#### {{< iconify material-symbols:factory >}} Precesion Industrial Sensing
+
+- Co-invented a spectrally shaped supercontinuum based non-contact thermal monitoring system for in-process silicon wafers.   
+
+- Achieved best-in-class $\pm 1^\circ\text{C}$ temperature measurement accuracy in direct collaboration with a leading semiconductor equipment manufacturer (patent filed).
+
+- Designed multi-point optomechanical illumination optics, pyrometry collection trains, and custom spectral shaping hardware.
+
+
+
+## {{< iconify game-icons:skills>}} Technical Skills
+
+-   [**Free-Space & Space Optics**]{.underline}: FSOC Terminal Architecture, Link Budgeting, Space Qualification, SDA OCT / CCSDS Standards
+
+-   [**Control Systems**]{.underline}:  QPD Signal Chain Design, FSM Closed-Loop Control, Sub-$\mu\text{rad}$ Tracking, Platform Jitter Rejection
+
+-   [**Fiber laser**]{.underline}: Design and fabrication of fiber lasers (CW and pulsed), Raman fiber lasers, and amplifiers
+
+-   [**Fiber processing**]{.underline}: stripping, cleaving, splicing, recoating of normal and specialty fibers
+
+-   [**Nonlinear conversion**]{.underline}: Freq. doubling using nonlinear crystals - BBO, LBO, PPLN
+
+-   [**Free-space setups**]{.underline}: pulse shapers, grating filters, beam combiners, collimators, and coupling systems
+
+-   [**Simulations**]{.underline}: link budget, propagation through turbulence, fiber lasers, Raman lasers, nonlinear pulse propagation, harmonic generation and free-space optics
+
+-   [**Softwares**]{.underline}: Python, Julia, Mathematica, COMSOL, Zemax, OptiSystem, FreeCad
+
+
+
+
+
+
 ## {{< iconify material-symbols:work >}} Experience
+
+::::: columns
+::: {.column width="30%"}
+**Founding Optical Engineer**
+:::
+
+::: column
+QOSMIC Satellite Systems Pvt. Ltd., Bangalore <br> 01/2026 - Present
+:::
+:::::
 
 ::::: columns
 ::: {.column width="30%"}
@@ -37,7 +126,7 @@ about:
 :::
 
 ::: column
-CeNSE, Indian Institute of Science, Bangalore <br> 03/2025 - present
+CeNSE, Indian Institute of Science, Bangalore <br> 03/2025 - 12/2025
 :::
 :::::
 
@@ -83,19 +172,6 @@ B.J.B (Autonomous) College, Bhubaneswar <br> 2012 – 2015
 :::
 :::::
 
-## {{< iconify game-icons:skills>}} Technical Skills
-
--   [**Fiber laser**]{.underline}: Design and fabrication of fiber lasers (CW and pulsed), Raman fiber lasers, and amplifiers
-
--   [**Fiber processing**]{.underline}: stripping, cleaving, splicing, recoating of normal and specialty fibers
-
--   [**Nonlinear conversion**]{.underline}: Freq. doubling using nonlinear crystals - BBO, LBO, PPLN
-
--   [**Free-space setups**]{.underline}: pulse shapers, grating filters, beam combiners, collimators, and coupling systems
-
--   [**Simulations**]{.underline}: fiber lasers, Raman lasers, nonlinear pulse propagation, harmonic generation and free-space optics
-
--   [**Softwares**]{.underline}: Python, Julia, Mathematica, COMSOL, Zemax
 
 ## {{< iconify healthicons:award-trophy >}} Awards & Achievements
 

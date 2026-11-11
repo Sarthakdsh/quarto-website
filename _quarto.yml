@@ -27,7 +27,6 @@ website:
       - href: https://www.linkedin.com/in/sarthak-dsh
         icon: linkedin
 
-
   page-footer:
     background: "#222222"
     left: "{{< iconify proicons:copyright >}} 2025, Sarthak Dash"
